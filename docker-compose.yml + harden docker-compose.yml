@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+    it-tools:
+        container_name: it-tools
+        hostname: it-tools
+        image: corentinth/it-tools:latest
+        security_opt:
+         - no-new-privileges:true
+        cap_drop:
+        - ALL
+        cap_add:
+         - CHOWN
+         - SETGID
+         - SETUID
+        ports:
+            - '127.0.0.1:8014:80'
+        restart: always
