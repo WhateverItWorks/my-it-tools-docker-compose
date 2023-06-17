@@ -1,3 +1,5 @@
+### Convert docker run to compose: https://www.composerize.com/
+
 ![logo](.github/logo.png)
 
 Useful tools for developer and people working in IT. [Have a look !](https://it-tools.tech).
